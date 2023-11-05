@@ -20,12 +20,12 @@
   "homepage": "https://github.com/supersonic-studios/is-pr-merely-npm-deps-update#readme",
   "devDependencies": {
     "@types/node": "^17.0.21",
-    "typescript": "^4.6.2",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "typescript": "^4.6.2"
   },
   "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.0",
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
     "deep-object-diff": "^1.1.9"
   }
 }
