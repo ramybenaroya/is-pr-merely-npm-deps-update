@@ -1,0 +1,21 @@
+name: 'Is Only Deps Diff'
+author: 'Ramy Ben Aroya'
+description: 'Custom GH action with TypeScript'
+
+inputs:
+  depPrefix:
+    description: 'Dependency prefix'
+    required: false
+    default: ''
+  depPrefixRegExp:
+    description: 'Dependency prefix regexp'
+    required: false
+    default: ''
+  depPrefixRegExpFlags:
+    description: 'Dependency prefix regexp flags'
+    required: false
+    default: ''
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
