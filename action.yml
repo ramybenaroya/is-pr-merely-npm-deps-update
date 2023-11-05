@@ -18,4 +18,5 @@ inputs:
 
 runs:
   using: 'node16'
+  pre: 'npm ci'
   main: 'dist/index.js'
